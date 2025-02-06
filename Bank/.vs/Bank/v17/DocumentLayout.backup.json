@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nikkita\\source\\repos\\Bank\\",
+  "WorkspaceRootPath": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC6638A6-EBEC-4ACE-905D-3F8CF639BB46}|Bank\\Bank.csproj|c:\\users\\nikkita\\source\\repos\\bank\\bank\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6638A6-EBEC-4ACE-905D-3F8CF639BB46}|Bank\\Bank.csproj|solutionrelative:bank\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22BC0C61-B1F2-4518-A1DF-D85EC2A12748}|BankTests\\BankTests.csproj|c:\\users\\nikkita\\source\\repos\\bank\\banktests\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22BC0C61-B1F2-4518-A1DF-D85EC2A12748}|BankTests\\BankTests.csproj|c:\\_archive\\__dev\\csharpz\\_github\\_bobbastard\\bank\\banktests\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22BC0C61-B1F2-4518-A1DF-D85EC2A12748}|BankTests\\BankTests.csproj|solutionrelative:banktests\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22BC0C61-B1F2-4518-A1DF-D85EC2A12748}|BankTests\\BankTests.csproj|c:\\users\\nikkita\\source\\repos\\bank\\banktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6638A6-EBEC-4ACE-905D-3F8CF639BB46}|Bank\\Bank.csproj|c:\\_archive\\__dev\\csharpz\\_github\\_bobbastard\\bank\\bank\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6638A6-EBEC-4ACE-905D-3F8CF639BB46}|Bank\\Bank.csproj|solutionrelative:bank\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22BC0C61-B1F2-4518-A1DF-D85EC2A12748}|BankTests\\BankTests.csproj|c:\\_archive\\__dev\\csharpz\\_github\\_bobbastard\\bank\\banktests\\banktests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{22BC0C61-B1F2-4518-A1DF-D85EC2A12748}|BankTests\\BankTests.csproj|solutionrelative:banktests\\banktests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22BC0C61-B1F2-4518-A1DF-D85EC2A12748}|BankTests\\BankTests.csproj|c:\\_archive\\__dev\\csharpz\\_github\\_bobbastard\\bank\\banktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22BC0C61-B1F2-4518-A1DF-D85EC2A12748}|BankTests\\BankTests.csproj|solutionrelative:banktests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -21,48 +25,60 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 192,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankTests",
+              "DocumentMoniker": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\BankTests\\BankTests.csproj",
+              "RelativeDocumentMoniker": "BankTests\\BankTests.csproj",
+              "ToolTip": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\BankTests\\BankTests.csproj",
+              "RelativeToolTip": "BankTests\\BankTests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-06T03:50:42.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BankAccountTests.cs",
-              "DocumentMoniker": "C:\\Users\\nikkita\\source\\repos\\Bank\\BankTests\\BankAccountTests.cs",
+              "DocumentMoniker": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\BankTests\\BankAccountTests.cs",
               "RelativeDocumentMoniker": "BankTests\\BankAccountTests.cs",
-              "ToolTip": "C:\\Users\\nikkita\\source\\repos\\Bank\\BankTests\\BankAccountTests.cs",
+              "ToolTip": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\BankTests\\BankAccountTests.cs",
               "RelativeToolTip": "BankTests\\BankAccountTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwDMAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T01:54:45.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "C:\\Users\\nikkita\\source\\repos\\Bank\\BankTests\\MSTestSettings.cs",
+              "DocumentMoniker": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\BankTests\\MSTestSettings.cs",
               "RelativeDocumentMoniker": "BankTests\\MSTestSettings.cs",
-              "ToolTip": "C:\\Users\\nikkita\\source\\repos\\Bank\\BankTests\\MSTestSettings.cs",
+              "ToolTip": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\BankTests\\MSTestSettings.cs",
               "RelativeToolTip": "BankTests\\MSTestSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T01:53:39.426Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2025-02-06T01:53:39.426Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BankAccount.cs",
-              "DocumentMoniker": "C:\\Users\\nikkita\\source\\repos\\Bank\\Bank\\BankAccount.cs",
+              "DocumentMoniker": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\Bank\\BankAccount.cs",
               "RelativeDocumentMoniker": "Bank\\BankAccount.cs",
-              "ToolTip": "C:\\Users\\nikkita\\source\\repos\\Bank\\Bank\\BankAccount.cs",
+              "ToolTip": "C:\\_ARCHIVE\\__DEV\\csharpz\\_github\\_BobBastard\\Bank\\Bank\\BankAccount.cs",
               "RelativeToolTip": "Bank\\BankAccount.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwC0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T01:49:50.447Z",
               "EditorCaption": ""

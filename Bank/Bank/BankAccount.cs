@@ -11,7 +11,8 @@ namespace BankAccountNS
     {
         private readonly string m_customerName;
         private double m_balance;
-
+        public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
+        public const string DebitAmountLessThanZeroMessage = "Debit amount is less than zero";
         private BankAccount() { }
 
         public BankAccount(string customerName, double balance)
@@ -34,12 +35,14 @@ namespace BankAccountNS
         {
             if (amount > m_balance)
             {
-                throw new ArgumentOutOfRangeException("amount");
+                //throw new ArgumentOutOfRangeException("amount"); //old-works
+                throw new ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage); //new-works
             }
 
             if (amount < 0)
             {
-                throw new ArgumentOutOfRangeException("amount");
+                //throw new ArgumentOutOfRangeException("amount"); //old-works
+                throw new ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage); //new-works
             }
 
             //m_balance += amount; // intentionally incorrect code -- original (old)
@@ -54,6 +57,7 @@ namespace BankAccountNS
                 throw new ArgumentOutOfRangeException("amount");
             }
 
+            #region @COMEBACK
             /// @COMEBACK Remember this mistake ! - a few lines above in the Debit fx I was supposed to modify that line.
             /// thats why my tests were broken and throwing this error below: SUCCESS!
             /// 
@@ -73,6 +77,8 @@ namespace BankAccountNS
             ///
             //m_balance += amount; //old -- fails test
             //m_balance -= amount; //new--fails: see above
+            #endregion @COMEBACK
+
             m_balance += amount; //redid original for @lessons_learned: m_balance += amount;
 
 

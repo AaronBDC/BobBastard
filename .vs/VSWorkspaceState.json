@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bank",
+    "\\Bank\\BankTests"
   ],
-  "SelectedNode": "\\NETRIDERdotNET.sln",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
