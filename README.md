@@ -1,5 +1,5 @@
 ﻿# README.md
-![README](README.PNG)
+![README](https://static.wikia.nocookie.net/villains/images/8/8b/Bob_Bastard.png)
 <sub>It's not the Grunstmaster 3000 but hey</sub>
 
 ## 🤦‍♂️ Background:
