@@ -1,8 +1,14 @@
-﻿# README.md
+﻿# README.md:
+
+<center>
+
 ![README](https://static.wikia.nocookie.net/villains/images/8/8b/Bob_Bastard.png)
+
 <sub>It's not the Grunstmaster 3000 but hey</sub>
 
-## 🤦‍♂️ Background:
+</center>
+
+## 🤦‍♂️ What's Been Done:
 
 [Source](https://learn.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022)
 
@@ -19,4 +25,3 @@ I was too excited to speed through the walk through, I made a rushed mistake whi
 	- creating data driven test units
 	- using a configuration file to define a data source
 	- link to accessdb and excel spreadsheets
-	- 
