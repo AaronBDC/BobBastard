@@ -6,9 +6,64 @@ namespace BankTests
     public sealed class BankAccountTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod1_MAIN()
         {
+            bool executedMain = false;
+            
+            
+            if (!executedMain)
+            {
+                BankAccount.Main();
+                executedMain = true;
+            } 
+            Assert.IsTrue(executedMain, "[ERROR] The Main function FAILED 😈 to Execute!!"+ executedMain );
         }
+        [TestMethod]
+        public void GettingPaid_WithInvalidAmount_UpdatesBalling()
+        {
+            double dAmount = 9.12;
+            bool bBalling = false;
+            BankAccount account = new BankAccount("Holly Griffith", dAmount);
+            bBalling = account.GettingPaid(dAmount);
+
+            Assert.IsFalse(bBalling, "Holly Griffith is NOT Balling with " + dAmount);
+        }
+        [TestMethod] 
+        public void GettingPaid_WithValidAmount_UpdatesBalling()
+        {
+            double dAmount = 90000.12;
+            bool bBalling = false;
+            BankAccount account = new BankAccount("Holly Griffith", dAmount);
+            bBalling = account.GettingPaid(dAmount);
+
+            Assert.IsTrue(bBalling, "Holly Griffith is NOT Balling with " + dAmount);
+        }
+        [TestMethod]
+        public void Credit_WithInvalidAmount_UpdatesBalanceAndBalling()
+        {
+            double dBalance = 2.25;
+            double dCreditAmount = -30.00;
+            
+        }
+        [TestMethod]
+        public void Credit_WithValidAmount_UpdatesBalanceAndBalling()
+        {
+            double dBalance = 2.25;
+            double dCreditAmount = 3000.00;
+            double dExpected = 3002.25;
+            bool bBalling = false;
+
+            BankAccount account = new BankAccount("Mrs. Gamora Pinknee", dBalance);
+
+            account.Credit(dCreditAmount);
+            double dActual = account.Balance;
+            //bBalling = account.Balling; //old
+            bBalling = account.GettingPaid(account.Balance); //new
+
+            Assert.AreEqual(dExpected, dActual, "Credit are not equal!");
+            Assert.IsTrue(bBalling, "Not balling :(" + bBalling + " " + dActual);
+        }
+
         [TestMethod]
         public void Debit_WithValidAmount_UpdatesBalance()
         {

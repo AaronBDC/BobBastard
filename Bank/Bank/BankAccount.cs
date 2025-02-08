@@ -11,14 +11,18 @@ namespace BankAccountNS
     {
         private readonly string m_customerName;
         private double m_balance;
+        private bool m_balling;
         public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
         public const string DebitAmountLessThanZeroMessage = "Debit amount is less than zero";
+
         private BankAccount() { }
 
         public BankAccount(string customerName, double balance)
         {
             m_customerName = customerName;
             m_balance = balance;
+            //m_balling = GettingPaid(balance); //old
+            m_balling = false; //new
         }
 
         public string CustomerName
@@ -30,7 +34,10 @@ namespace BankAccountNS
         {
             get { return m_balance; }
         }
-
+        public bool Balling
+        {
+            get { return m_balling; }
+        }
         public void Debit(double amount)
         {
             if (amount > m_balance)
@@ -82,6 +89,31 @@ namespace BankAccountNS
             m_balance += amount; //redid original for @lessons_learned: m_balance += amount;
 
 
+        }
+
+        public bool GettingPaid(double amount)
+        {
+            bool result = false;
+            try
+            {
+                // code for try
+                if (amount > 100.00)
+                {
+                    result = true;
+                    Console.WriteLine("Are you gettin paid? {0}", result);
+                }
+                m_balling = result;
+            }
+            catch (Exception ex)
+            {
+                // code for catch
+            }
+            finally
+            {
+                // code for finally/cleanup
+            }
+
+            return result;
         }
 
         public static void Main()
